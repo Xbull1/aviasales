@@ -1,0 +1,46 @@
+.Ticket{
+  min-height: 184px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .price{
+      color: #2196f3;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    .content-info{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 40px;
+      .content-info-text{
+        display: flex;
+        flex-direction: column;
+        .content-info__text-top{
+          color: #A0B0B9;
+          height: 18px;
+          align-content: center;
+        }
+        .content-info__text-bottom{
+          color: #4A4A4A;
+          font-size: 14px;
+          height: 21px;
+          align-content: center;
+        }
+      }
+    }
+  }
+}

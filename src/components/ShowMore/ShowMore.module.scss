@@ -1,0 +1,15 @@
+.show-more-button{
+  min-height: 50px;
+  background-color: #2196F3;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  line-height: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  &:hover{
+    background-color: #1976D2;
+    transform: scale(1.05);
+  }
+}
